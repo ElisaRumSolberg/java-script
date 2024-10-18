@@ -1,0 +1,55 @@
+Değişken Tanımlama Kuralları
+Değişkenler verilerin saklandığı birimlerdir. 
+Değişkenleri tanımlamak için bazı keyword'ler kullanılır.
+ES6'dan önce, JavaScript'te bir değişken tanımlamak için var kullanılırdı.
+Fakat ES6 ile beraber const ve let kullanılmaya başlandı
+Yani bundan sonra örneklerimizde const ve let kullanacağız.
+====
+Değişken isimleri Türkçe karakter içermemelidir.
+Değişken isimleri büyük ve küçük harf duyarlıdır.
+Değişken isimlerinde ilk karakter bir sayı olamaz.
+Değişken isimlerinde JavaScript etiketleri kullanılamaz.
+Değişken isimlerinde sayı, harf, alt çizgi ve dolar işareti kullanılabilir;
+boşluk,noktalama işareti veya sembol kullanılamaz.
+
+======
+Değişken isimleri büyük ve küçük harf duyarlıdır.
+Değişken tanımlarken büyük ve küçük harf kullanımına dikkat edilmelidir.
+Aksi halde bazı problemlerle karşılaşmanız olasıdır.
+
+Örneğin:
+
+const userName = "Ahmet";
+const userNAme = "Ahmet";
+
+======
+Değişken isimlerinde ilk karakter bir sayı olamaz.
+Değişken tanımlarken ilk yazacağımız karakter bir sayı olamaz.
+Örnek vermek gerekirse:
+
+let 3person = ["Ahmet", "Mehmet", "Ayşe"];
+Yukarıdaki yazım şekli yanlıştır. Bu şekilde yazarsak hata alırız.
+
+Doğru yazım şekli aşağıdaki gibidir:
+
+let threePerson = ["Ahmet", "Mehmet", "Ayşe"];
+ya da kısıca şu şekilde de yazabiliriz:
+
+let person = ["Ahmet", "Mehmet", "Ayşe"];
+===
+
+Değişken isimlerinde sayı, harf, alt çizgi ve dolar işareti kullanılabilir;
+boşluk, noktalama işareti veya sembol kullanılamaz.
+
+const user1 = "value"; //sayı ve harf kullanılabilir. 
+const user_password = "password"; //alt çizgi kullanılabilir. 
+const user$info = "info"; //dolar işareti kullanılabilir.
+
+Ayrıca sayı, harf, alt çizgi ve dolar işareti değişken
+isminin başında da, içinde de kullanılabilir.
+
+const user name = "name"; //boşluk kullanılamaz. 
+const user?password = "password"; //noktalama işareti kullanılamaz. 
+const user+info = "info"; //sembol kullanılamaz.
+
+=============

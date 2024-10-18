@@ -1,0 +1,19 @@
+Number Veri Türü Kullanımı, 
+Temel Aritmetik İşlemler ve İşlem Önceliği 
+ve Arttırma ve Azaltma İşlemleri
+==================
+Number (Sayı) Veri Türü
+
+JavaScript dili weakly-typed yani güçsüz türlü bir dildir.
+Değişkenlerin ve parametrelerin türlerini bildirmek gerekmez. 
+Tür kullanımdan dolaylı olarak çıkartılır.
+
+Örneğin;
+
+var x = 3;
+Şeklinde bir kullanımda x değişkenin değeri bir tam sayıdır (integer),
+aşağıdaki örnekte ise;
+
+    var x = 3.2;
+x değişkenin değer türü kayan sayı (float) türündedir. 
+Sayının integer veya float olup olmadığı nokta (.) olup olmamasından anlaşılır.
